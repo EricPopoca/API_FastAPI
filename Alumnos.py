@@ -15,6 +15,7 @@ class Alumno(BaseModel):
     correo: str        #Institucional  
     cursante: bool     #¿Cursa actualmente o es exalumno?
 
+# Crear aplicación #
 app = FastAPI()
 
 # Para el guardado de datos se crea el archivo JSON, de otra forma los datos se borran cuando se cierre el programa #
