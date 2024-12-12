@@ -9,11 +9,11 @@ import os
 
 # Modelo de datos para alumno #
 class Alumno(BaseModel):
-    boleta = int        #Numero de identificación
-    nombre = str        
-    edad = int
-    correo = str        #Institucional  
-    cursante = bool     #¿Cursa actualmente o es exalumno?
+    boleta: int        #Numero de identificación
+    nombre: str        
+    edad: int
+    correo: str        #Institucional  
+    cursante: bool     #¿Cursa actualmente o es exalumno?
 
 app = FastAPI()
 
